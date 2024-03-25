@@ -6,24 +6,30 @@ body header {
   display: flex;
   flex-direction: row;
   z-index: 100;
-  width: 1440px;
+  width: min(95%, 375px);
+  height: 80px;
   background-color: whitesmoke;
   position: fixed;
   opacity: 0.7;
 }
 body header .logo {
-  width: 200px;
+  width: 80px;
+  height: 80px;
 }
 body header nav {
-  margin-top: 50px;
+  margin-top: 25px;
 }
 body header nav a {
-  font-size: 2rem;
-  margin: 0 22px;
+  font-size: 0.5rem;
   color: #0093af;
+  text-decoration: none;
+  margin: 0 10px;
+}
+body header nav a:hover {
+  text-decoration: underline;
 }
 body main {
-  width: 1440px;
+  width: min(95%, 375px);
 }
 body main p {
   font-weight: 200;
@@ -32,15 +38,14 @@ body main #home {
   background-image: url("1AdobeStock_386173843.png");
   background-repeat: no-repeat;
   background-size: cover;
-  height: 1000px;
+  height: 500px;
   width: 100%;
 }
 body main #home h1 {
   position: absolute;
-  top: 10rem;
+  top: 5rem;
   color: #0093af;
-  font-size: 4rem;
-  padding: 0 5rem;
+  padding: 0 2rem;
 }
 body main #home h1 span {
   color: white;
@@ -54,88 +59,91 @@ body main home::before {
   opacity: 0.6;
 }
 body main h3 {
-  font-size: 2rem;
   color: #0093af;
   text-decoration: overline;
 }
 body main #who-we-are {
   text-align: center;
-  margin-top: 10rem;
+  margin-top: 2rem;
 }
 body main #who-we-are img {
-  width: 720px;
-  height: 400px;
+  width: 310px;
+  height: 150px;
   border-radius: 1rem;
-  border: 10px solid white;
+  border: 5px solid white;
 }
 body main #who-we-are p {
-  font-size: 1.5rem;
-  padding: 0 20rem;
-  line-height: 35px;
+  font-size: 1rem;
+  padding: 0;
   color: #0093af;
 }
 body main #what-we-do {
   text-align: center;
   color: white;
-  margin-top: 10rem;
+  margin-top: 2rem;
   background-color: #0093af;
-  height: 1200px;
+  height: 1400px;
 }
 body main #what-we-do h3 {
-  font-size: 2rem;
   color: white;
 }
 body main #what-we-do p {
-  font-size: 1.5rem;
+  font-size: 1rem;
   padding: 0 30px;
-  line-height: 35px;
 }
 body main #what-we-do .infographics {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
   gap: 2rem;
   justify-items: center;
 }
 body main #what-we-do .infographics article {
   border: 1px solid;
-  height: 300px;
-  width: 150px;
+  height: 200px;
+  width: 100px;
   border-radius: 5rem;
   overflow: hidden;
+}
+body main #what-we-do .infographics article span {
+  font-size: 0.7rem;
+  position: relative;
+  top: 2rem;
 }
 body main #what-we-do .infographics article div {
   background-color: white;
   border: 1px solid;
   border-radius: 50%;
-  width: 150px;
-  height: 150px;
+  width: 100px;
+  height: 80px;
 }
 body main #what-we-do .infographics article div svg {
-  width: 80px;
-  height: 80px;
+  width: 40px;
+  height: 40px;
+  position: relative;
+  top: 1rem;
 }
 body main #why-use-us {
   text-align: center;
-  color: white;
-  margin-top: 10rem;
+  color: #0093af;
+  margin-top: 2rem;
 }
 body main #why-use-us p {
-  font-size: 1.5rem;
-  padding: 0 11rem;
+  font-size: 1rem;
+  padding: 0;
 }
 body main #why-use-us .gallery img {
-  width: 250px;
-  height: 200px;
-  border-radius: 2rem;
-  margin: 0 12px;
+  width: 150px;
+  height: 150px;
+  border-radius: 1rem;
+  margin: 0 5px;
 }
 body main #why-use-us ul {
   list-style-type: none;
   padding: 2rem 0rem;
-  font-size: 1.5rem;
+  font-size: 1rem;
 }
 body main #why-use-us ul li {
-  padding: 1rem 16rem;
+  padding: 1rem 0;
   border-radius: 4rem;
   color: #0093af;
 }
@@ -146,27 +154,27 @@ body main #faq {
   text-align: left;
   color: #0093af;
   text-align: center;
-  margin-top: 10rem;
+  margin-top: 2rem;
 }
 body main #faq img {
-  height: 300px;
+  height: 250px;
   width: 100%;
 }
 body main #faq details {
   border: 1px solid;
-  width: 700px;
+  width: 320px;
   margin: 2rem 0;
   position: relative;
-  left: 25rem;
+  left: 1rem;
 }
 body main #contact {
   text-align: center;
-  height: 1000px;
+  height: 500px;
   color: #0093af;
-  margin-top: 10rem;
+  margin-top: 3rem;
 }
 body main #contact P {
-  font-size: 1.5rem;
+  font-size: 1rem;
 }
 body main #contact form {
   display: flex;
@@ -189,4 +197,121 @@ body main #contact form button {
   border: 0;
   color: white;
   background-color: #0093af;
+}
+@media screen and (min-width: 1440px) {
+  body header {
+    width: 1400px;
+    height: 150px;
+  }
+  body header .logo {
+    width: 200px;
+    height: 150px;
+  }
+  body header nav {
+    margin-top: 50px;
+  }
+  body header nav a {
+    font-size: 2rem;
+    margin: 0 22px;
+  }
+  body main {
+    width: 1440px;
+  }
+  body main #home {
+    height: 1000px;
+  }
+  body main #home h1 {
+    top: 10rem;
+    font-size: 4rem;
+    padding: 0 5rem;
+  }
+  body main h3 {
+    font-size: 2rem;
+  }
+  body main #who-we-are {
+    margin-top: 10rem;
+  }
+  body main #who-we-are img {
+    width: 720px;
+    height: 400px;
+    border: 10px solid white;
+  }
+  body main #who-we-are p {
+    font-size: 1.5rem;
+    padding: 0 20rem;
+    line-height: 35px;
+  }
+  body main #what-we-do {
+    margin-top: 10rem;
+  }
+  body main #what-we-do p {
+    font-size: 1.5rem;
+    line-height: 35px;
+  }
+  body main #what-we-do .infographics {
+    grid-template-columns: 1fr 1fr 1fr;
+    height: 1200px;
+  }
+  body main #what-we-do .infographics article {
+    height: 300px;
+    width: 150px;
+    border-radius: 5rem;
+  }
+  body main #what-we-do .infographics article span {
+    font-size: 1rem;
+  }
+  body main #what-we-do .infographics article div {
+    width: 150px;
+    height: 150px;
+  }
+  body main #what-we-do .infographics article div svg {
+    width: 80px;
+    height: 80px;
+  }
+  body main #why-use-us {
+    margin-top: 10rem;
+  }
+  body main #why-use-us p {
+    font-size: 1.5rem;
+    padding: 0 11rem;
+  }
+  body main #why-use-us .gallery img {
+    width: 250px;
+    height: 200px;
+    border-radius: 2rem;
+    margin: 0 12px;
+  }
+  body main #why-use-us ul {
+    padding: 2rem 0rem;
+    font-size: 1.5rem;
+  }
+  body main #why-use-us ul li {
+    padding: 1rem 16rem;
+    border-radius: 4rem;
+    color: #0093af;
+  }
+  body main #why-use-us ul li span {
+    font-weight: 200;
+  }
+  body main #faq {
+    margin-top: 10rem;
+  }
+  body main #faq img {
+    height: 300px;
+    width: 100%;
+  }
+  body main #faq details {
+    border: 1px solid;
+    width: 700px;
+    margin: 2rem 0;
+    position: relative;
+    left: 25rem;
+  }
+  body main #contact {
+    height: 1000px;
+    margin-top: 10rem;
+  }
+  body main #contact P {
+    font-size: 1.5rem;
+  }
 }/*# sourceMappingURL=styles.css.map */
