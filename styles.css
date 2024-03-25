@@ -40,6 +40,8 @@ body main #home {
   background-image: url("1AdobeStock_386173843.png");
   background-repeat: no-repeat;
   background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
   height: 550px;
   width: 100%;
 }
@@ -73,15 +75,16 @@ body main #home::before {
   width: 100%;
   height: 100%;
   content: "";
-  opacity: 0.7;
+  opacity: 0.5;
 }
 body main h3 {
   color: #0093af;
   text-decoration: overline;
 }
 body main #who-we-are {
+  position: relative;
   text-align: center;
-  margin-top: 2rem;
+  background-color: rgba(255, 255, 255, 0.3);
 }
 body main #who-we-are img {
   width: 320px;
@@ -94,10 +97,18 @@ body main #who-we-are p {
   padding: 0;
   color: #0093af;
 }
+body main .parallax {
+  background-image: url("1AdobeStock_386173843.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  height: 550px;
+  width: 100%;
+}
 body main #what-we-do {
   text-align: center;
   color: white;
-  margin-top: 2rem;
   background-color: #0093af;
   height: 1400px;
 }
@@ -139,17 +150,27 @@ body main #what-we-do .infographics article div svg {
   position: relative;
   top: 1rem;
 }
+body main .parallax1 {
+  background-image: url("full-shot-disabled-man-getting-out-vehicle_23-2149445659.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  height: 550px;
+  width: 100%;
+}
 body main #why-use-us {
   text-align: center;
   color: #0093af;
   margin-top: 2rem;
+  height: 300px;
 }
 body main #why-use-us p {
   font-size: 1rem;
   padding: 0;
 }
 body main #why-use-us .gallery img {
-  width: 150px;
+  width: 170px;
   height: 150px;
   border-radius: 1rem;
   margin: 0 5px;
@@ -167,6 +188,37 @@ body main #why-use-us ul li {
 body main #why-use-us ul li span {
   font-weight: 200;
 }
+body main .parallax2 {
+  background-image: url("AdobeStock_603239336.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  height: 550px;
+  width: 100%;
+}
+body main #why-use-us2 ul {
+  list-style-type: none;
+  padding: 2rem 0rem;
+  font-size: 1rem;
+}
+body main #why-use-us2 ul li {
+  padding: 1rem 0;
+  border-radius: 4rem;
+  color: #0093af;
+}
+body main #why-use-us2 ul li span {
+  font-weight: 200;
+}
+body main .parallax3 {
+  background-image: url("AdobeStock_603239336.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  height: 550px;
+  width: 100%;
+}
 body main #faq {
   text-align: left;
   color: #0093af;
@@ -181,6 +233,15 @@ body main #faq details {
   border: 1px solid;
   width: 100%;
   margin: 2rem 0;
+}
+body main .parallax4 {
+  background-image: url("AdobeStock_673767848.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  height: 550px;
+  width: 100%;
 }
 body main #contact {
   text-align: center;
@@ -248,9 +309,6 @@ body main #contact form button {
   body main h3 {
     font-size: 2rem;
   }
-  body main #who-we-are {
-    margin-top: 10rem;
-  }
   body main #who-we-are img {
     width: 720px;
     height: 400px;
@@ -260,9 +318,6 @@ body main #contact form button {
     font-size: 1.5rem;
     padding: 0 20rem;
     line-height: 35px;
-  }
-  body main #what-we-do {
-    margin-top: 10rem;
   }
   body main #what-we-do p {
     font-size: 1.5rem;
@@ -289,7 +344,7 @@ body main #contact form button {
     height: 80px;
   }
   body main #why-use-us {
-    margin-top: 10rem;
+    height: 250px;
   }
   body main #why-use-us p {
     font-size: 1.5rem;
@@ -313,8 +368,17 @@ body main #contact form button {
   body main #why-use-us ul li span {
     font-weight: 200;
   }
-  body main #faq {
-    margin-top: 10rem;
+  body main #why-use-us2 ul {
+    padding: 2rem 0rem;
+    font-size: 1.5rem;
+  }
+  body main #why-use-us2 ul li {
+    padding: 1rem 16rem;
+    border-radius: 4rem;
+    color: #0093af;
+  }
+  body main #why-use-us2 ul li span {
+    font-weight: 200;
   }
   body main #faq img {
     height: 300px;

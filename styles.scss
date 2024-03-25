@@ -51,6 +51,8 @@ body {
             background-image: url("1AdobeStock_386173843.png");
             background-repeat: no-repeat;
             background-size: cover;
+            background-attachment: fixed;
+            background-position: center;
             height: 550px;
             width: 100%;
             
@@ -98,7 +100,7 @@ body {
             width: 100%;
             height: 100%;
             content: "";
-            opacity: 0.7;
+            opacity: 0.5;
         }
 
         h3 {
@@ -109,8 +111,11 @@ body {
 
         #who-we-are {
             
+            position: relative;
             text-align: center;
-            margin-top: 2rem;
+            background-color: rgba(255, 255, 255, 0.3);
+            
+            
 
            
 
@@ -128,11 +133,20 @@ body {
             }
         }
 
+        .parallax {
+            background-image: url("1AdobeStock_386173843.png");
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-attachment: fixed;
+            background-position: center;
+            height: 550px;
+            width: 100%;
+        }
+
         #what-we-do {
 
             text-align: center;
             color: white;
-            margin-top: 2rem;
             background-color: #0093af;
             height: 1400px;
             
@@ -198,10 +212,24 @@ body {
             }
         }
 
+        .parallax1 {
+
+            background-image: url("full-shot-disabled-man-getting-out-vehicle_23-2149445659.jpg");
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-attachment: fixed;
+            background-position: center;
+            height: 550px;
+            width: 100%;
+
+        }
+
         #why-use-us {
             text-align: center;
             color: #0093af;
             margin-top: 2rem;
+            height: 300px;
+
 
             p {
                 font-size: 1rem;
@@ -212,7 +240,7 @@ body {
 
                 img {
 
-                    width: 150px;
+                    width: 170px;
                     height: 150px;
                     border-radius: 1rem;
                     margin: 0 5px;
@@ -242,6 +270,48 @@ body {
 
         }
 
+        .parallax2 {
+            background-image: url("AdobeStock_603239336.jpeg");
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-attachment: fixed;
+            background-position: center;
+            height: 550px;
+            width: 100%;
+        }
+
+        #why-use-us2{
+            ul {
+
+                
+                list-style-type: none;
+                padding: 2rem 0rem;
+                font-size: 1rem;
+                
+                
+               
+
+                li {
+                    padding: 1rem 0;
+                    border-radius: 4rem;
+                    color: #0093af;
+
+                    span {
+                        font-weight: 200;
+                    }
+                }
+            }
+        }
+        .parallax3 {
+            background-image: url("AdobeStock_603239336.jpeg");
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-attachment: fixed;
+            background-position: center;
+            height: 550px;
+            width: 100%;
+        }
+
         #faq {
             text-align: left;
             color: #0093af;;
@@ -262,6 +332,16 @@ body {
 
             }
 
+        }
+
+        .parallax4 {
+            background-image: url("AdobeStock_673767848.jpeg");
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-attachment: fixed;
+            background-position: center;
+            height: 550px;
+            width: 100%;
         }
 
         #contact {
@@ -358,7 +438,7 @@ body {
             }
 
             #who-we-are {
-                margin-top: 10rem;
+               
 
                 img {
 
@@ -377,7 +457,7 @@ body {
             }
 
             #what-we-do {
-                margin-top: 10rem;
+                
 
                 p {
                     font-size: 1.5rem;
@@ -420,7 +500,7 @@ body {
 
             #why-use-us {
 
-                margin-top: 10rem;
+                height: 250px;
 
                 p {
                     font-size: 1.5rem;
@@ -459,8 +539,30 @@ body {
 
             }
 
+            #why-use-us2{
+                ul {
+
+                    padding: 2rem 0rem;
+                    font-size: 1.5rem;
+                    
+                    
+                   
+    
+                    li {
+                        padding: 1rem 16rem;
+                        border-radius: 4rem;
+                        color: #0093af;
+    
+                        span {
+                            font-weight: 200;
+                        }
+                    }
+                }
+
+            }
+
             #faq {
-                margin-top: 10rem;
+                
 
                 img {
                     height: 300px;
