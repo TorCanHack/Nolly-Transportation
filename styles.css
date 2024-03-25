@@ -55,11 +55,12 @@ body main #home h1 span {
 }
 body main #home h2 {
   position: absolute;
-  top: 27rem;
+  top: 15rem;
   color: #0093af;
   font-size: 1rem;
   padding: 0 1rem;
   font-weight: bolder;
+  font-weight: 400;
 }
 body main #home h2 span {
   color: white;
