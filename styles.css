@@ -50,6 +50,7 @@ body main #home {
   height: 550px;
   width: 100%;
   background-color: #0093af;
+  transform: translate3d(0, 0, 0);
 }
 body main #home svg {
   position: relative;
@@ -111,6 +112,7 @@ body main .parallax {
   height: 550px;
   width: 100%;
   background-color: #0093af;
+  transform: translate3d(0, 0, 0);
 }
 body main #what-we-do {
   text-align: center;
@@ -166,6 +168,7 @@ body main .parallax1 {
   height: 550px;
   width: 100%;
   background-color: #0093af;
+  transform: translate3d(0, 0, 0);
 }
 body main #why-use-us {
   text-align: center;
@@ -183,19 +186,6 @@ body main #why-use-us .gallery img {
   border-radius: 1rem;
   margin: 0 5px;
 }
-body main #why-use-us ul {
-  list-style-type: none;
-  padding: 2rem 0rem;
-  font-size: 1rem;
-}
-body main #why-use-us ul li {
-  padding: 1rem 0;
-  border-radius: 4rem;
-  color: #0093af;
-}
-body main #why-use-us ul li span {
-  font-weight: 200;
-}
 body main .parallax2 {
   background-image: url("AdobeStock_603239336-min.jpeg");
   background-repeat: no-repeat;
@@ -204,6 +194,7 @@ body main .parallax2 {
   background-position: center;
   height: 550px;
   width: 100%;
+  transform: translate3d(0, 0, 0);
 }
 body main #why-use-us2 {
   display: grid;
@@ -228,6 +219,7 @@ body main .parallax3 {
   background-position: center;
   height: 550px;
   width: 100%;
+  transform: translate3d(0, 0, 0);
 }
 body main #faq {
   text-align: left;
@@ -252,6 +244,7 @@ body main .parallax4 {
   background-position: center;
   height: 550px;
   width: 100%;
+  transform: translate3d(0, 0, 0);
 }
 body main #contact {
   text-align: center;
@@ -293,6 +286,7 @@ body main .parallax5 {
   background-position: center;
   height: 550px;
   width: 100%;
+  transform: translate3d(0, 0, 0);
 }
 body footer {
   display: flex;
@@ -405,18 +399,6 @@ body footer a:visited {
     height: 200px;
     border-radius: 2rem;
     margin: 0 12px;
-  }
-  body main #why-use-us ul {
-    padding: 2rem 0rem;
-    font-size: 1.5rem;
-  }
-  body main #why-use-us ul li {
-    padding: 1rem 16rem;
-    border-radius: 4rem;
-    color: #0093af;
-  }
-  body main #why-use-us ul li span {
-    font-weight: 200;
   }
   body main #why-use-us2 {
     grid-template-columns: 1fr 1fr 1fr;

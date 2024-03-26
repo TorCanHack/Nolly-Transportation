@@ -61,6 +61,7 @@ body {
             height: 550px;
             width: 100%;
             background-color: #0093af;
+            transform: translate3d(0, 0, 0);
 
             svg {
                 position: relative;
@@ -149,6 +150,7 @@ body {
             height: 550px;
             width: 100%;
             background-color: #0093af;
+            transform: translate3d(0, 0, 0);
         }
 
         #what-we-do {
@@ -230,7 +232,8 @@ body {
             background-position: center;
             height: 550px;
             width: 100%;
-            background-color: #0093af
+            background-color: #0093af;
+            transform: translate3d(0, 0, 0);
 
         }
 
@@ -257,26 +260,7 @@ body {
                 }
             }
 
-            ul {
-
-                
-                list-style-type: none;
-                padding: 2rem 0rem;
-                font-size: 1rem;
-                
-                
-               
-
-                li {
-                    padding: 1rem 0;
-                    border-radius: 4rem;
-                    color: #0093af;
-
-                    span {
-                        font-weight: 200;
-                    }
-                }
-            }
+    
 
         }
 
@@ -288,6 +272,7 @@ body {
             background-position: center;
             height: 550px;
             width: 100%;
+            transform: translate3d(0, 0, 0);
         }
 
         #why-use-us2{
@@ -319,6 +304,7 @@ body {
             background-position: center;
             height: 550px;
             width: 100%;
+            transform: translate3d(0, 0, 0);
         }
 
         #faq {
@@ -351,6 +337,7 @@ body {
             background-position: center;
             height: 550px;
             width: 100%;
+            transform: translate3d(0, 0, 0);
         }
 
         #contact {
@@ -405,6 +392,7 @@ body {
             background-position: center;
             height: 550px;
             width: 100%;
+            transform: translate3d(0, 0, 0);
         }
 
     }
@@ -575,24 +563,7 @@ body {
                     }
                 }
 
-                ul {
 
-                    padding: 2rem 0rem;
-                    font-size: 1.5rem;
-                    
-                    
-                   
-    
-                    li {
-                        padding: 1rem 16rem;
-                        border-radius: 4rem;
-                        color: #0093af;
-    
-                        span {
-                            font-weight: 200;
-                        }
-                    }
-                }
 
             }
 
