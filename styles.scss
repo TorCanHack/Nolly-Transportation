@@ -78,10 +78,6 @@ body {
                 padding: 0 1rem;
                 font-size: 2.9rem;
                 text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
-
-                
-                
-
                 
 
             }
@@ -119,7 +115,7 @@ body {
             
             color: #0093af;
             text-decoration: overline;
-            font-size: 3rem;
+            font-size: 2rem;
             margin-bottom: 1rem;
         }
 
@@ -423,6 +419,177 @@ body {
         }
     }
 
+    
+    @media screen and (min-width: 800px) {
+
+        header {
+            width: 800px;
+            height: 120px;
+
+           .logo {
+            width: 170px;
+            height: 120px;
+           }
+
+           nav {
+                margin-top: 50px;
+
+                a {
+                    font-size: 1.2rem;
+                    margin: 0 6px;
+               }
+           }
+
+           
+        }
+
+        main {
+            width: 800px;
+
+            #home {
+
+                height: 900px;
+                background-size: cover;
+
+                svg {
+                    position: relative;
+                    bottom: 50.5rem;
+                    left: 6rem;
+                }
+
+                h1 {
+                    top: 10rem;
+                    font-size: 4rem;
+                    padding: 0 5rem;
+                }
+
+                h2 {
+                    font-size: 2rem;
+                    padding: 0 5rem;
+                    top: 19rem;
+
+                }
+            }
+
+            h3 {
+                font-size: 3rem;
+            }
+
+            #who-we-are {
+               
+
+
+                p {
+                    font-size: 1.5rem;
+                    padding: 0;
+                    line-height: 35px;
+
+                }
+            }
+
+            .parallax {
+                background-size: cover;
+            }
+
+            #what-we-do {
+                
+
+                p {
+                    font-size: 1.5rem;
+                    line-height: 35px;
+                    
+                }
+
+                .infographics {
+
+                    grid-template-columns: 1fr 1fr 1fr;
+                    height: 1200px;
+
+                    article {
+
+                        height: 300px;
+                        width: 150px;
+                        border-radius: 5rem;
+                        
+                        span {
+                            font-size: 1rem;
+                        }
+                        
+
+                        div {
+
+                            width: 150px;
+                            height: 150px;
+
+                            svg {
+                                width: 80px;
+                                height: 80px;
+                            }
+
+                        }
+                    }
+
+
+                }
+            }
+
+            #why-use-us {
+
+                height: 350px;
+
+                p {
+                    font-size: 1.5rem;
+                    padding: 0 11rem;
+                }
+
+            }
+
+            #why-use-us2{
+                grid-template-columns: 1fr 1fr;
+                
+                article {
+                    font-size: 1.3rem;
+                }
+            }
+
+            #faq {
+                
+
+                img {
+                    height: 300px;
+                    width: 100%;
+                }
+
+                details {
+                    border: 1px solid;
+                    width: 800px;
+                    margin: 2rem 0;
+                }
+
+
+            }
+
+            #contact {
+
+                height: 500px;
+                
+                P {
+                    font-size: 1.5rem;
+                }
+
+            }
+
+
+        }
+
+        footer {
+            width: 800px;
+
+
+        }
+        
+    }
+
     @media screen and (min-width: 1440px) {
 
         header {
@@ -481,13 +648,6 @@ body {
             #who-we-are {
                
 
-                img {
-
-                    width: 720px;
-                    height: 400px;
-                    border: 10px solid white;
-
-                }
 
                 p {
                     font-size: 1.5rem;
@@ -552,18 +712,6 @@ body {
                     padding: 0 11rem;
                 }
 
-                .gallery {
-
-                    img {
-    
-                        width: 250px;
-                        height: 200px;
-                        border-radius: 2rem;
-                        margin: 0 12px;
-                    }
-                }
-
-
 
             }
 
@@ -578,10 +726,7 @@ body {
             #faq {
                 
 
-                img {
-                    height: 300px;
-                    width: 100%;
-                }
+                
 
                 details {
                     border: 1px solid;
