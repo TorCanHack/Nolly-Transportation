@@ -44,11 +44,16 @@ body main p {
 body main #home {
   background-image: url("1AdobeStock_386173843.png");
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: contain;
   background-attachment: fixed;
   background-position: center;
   height: 550px;
   width: 100%;
+  background-color: #0093af;
+}
+body main #home svg {
+  position: relative;
+  bottom: 31rem;
 }
 body main #home h1 {
   position: absolute;
@@ -57,9 +62,6 @@ body main #home h1 {
   padding: 0 1rem;
   font-size: 3rem;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
-}
-body main #home h1 span {
-  color: #0093af;
 }
 body main #home h2 {
   position: absolute;
@@ -307,6 +309,7 @@ body footer img {
 }
 body footer a {
   text-decoration: none;
+  color: #EEEFF4;
 }
 body footer a:visited {
   color: #0093af;
@@ -332,6 +335,12 @@ body footer a:visited {
   }
   body main #home {
     height: 1000px;
+    background-size: cover;
+  }
+  body main #home svg {
+    position: relative;
+    bottom: 59rem;
+    left: 6rem;
   }
   body main #home h1 {
     top: 10rem;

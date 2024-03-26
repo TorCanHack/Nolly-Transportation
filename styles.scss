@@ -55,11 +55,17 @@ body {
         #home {
             background-image: url("1AdobeStock_386173843.png");
             background-repeat: no-repeat;
-            background-size: cover;
-            background-attachment: fixed;
+            background-size: contain;
+            background-attachment:fixed;
             background-position: center;
             height: 550px;
             width: 100%;
+            background-color: #0093af;
+
+            svg {
+                position: relative;
+                bottom: 31rem;
+            }
             
 
            
@@ -75,9 +81,7 @@ body {
                 
                 
 
-                span {
-                    color: #0093af;
-                }
+                
 
             }
 
@@ -107,6 +111,8 @@ body {
             content: "";
             opacity: 0.5;
         }
+
+  
 
         h3 {
             
@@ -420,6 +426,7 @@ body {
 
         a {
             text-decoration: none;
+            color: #EEEFF4;
         }
 
         a:visited {
@@ -456,6 +463,13 @@ body {
             #home {
 
                 height: 1000px;
+                background-size: cover;
+
+                svg {
+                    position: relative;
+                    bottom: 59rem;
+                    left: 6rem;
+                }
 
                 h1 {
                     top: 10rem;
