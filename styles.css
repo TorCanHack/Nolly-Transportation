@@ -1,8 +1,15 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
 body {
   background-color: white;
-  font-family: "Poppins", sans-serif;
+  font-family: "League Spartan", sans-serif;
   display: flex;
+  flex-direction: column;
   justify-content: center;
+  align-items: center;
 }
 body header {
   display: flex;
@@ -11,8 +18,6 @@ body header {
   width: min(95%, 375px);
   height: 80px;
   background-color: whitesmoke;
-  position: fixed;
-  opacity: 0.7;
 }
 body header .logo {
   width: 80px;
@@ -50,7 +55,7 @@ body main #home h1 {
   top: 5rem;
   color: white;
   padding: 0 1rem;
-  font-size: 2rem;
+  font-size: 3rem;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
 body main #home h1 span {
@@ -58,7 +63,7 @@ body main #home h1 span {
 }
 body main #home h2 {
   position: absolute;
-  top: 12rem;
+  top: 14rem;
   color: white;
   font-size: 1rem;
   padding: 0 1rem;
@@ -80,22 +85,20 @@ body main #home::before {
 body main h3 {
   color: #0093af;
   text-decoration: overline;
+  font-size: 3rem;
+  margin-bottom: 1rem;
 }
 body main #who-we-are {
   position: relative;
   text-align: center;
   background-color: rgba(255, 255, 255, 0.3);
 }
-body main #who-we-are img {
-  width: 320px;
-  height: 250px;
-  border-radius: 1rem;
-  border: 5px solid white;
-}
 body main #who-we-are p {
   font-size: 1rem;
   padding: 0;
   color: #0093af;
+  margin-bottom: 1rem;
+  font-size: 1.125rem;
 }
 body main .parallax {
   background-image: url("1AdobeStock_386173843.png");
@@ -151,13 +154,14 @@ body main #what-we-do .infographics article div svg {
   top: 1rem;
 }
 body main .parallax1 {
-  background-image: url("full-shot-disabled-man-getting-out-vehicle_23-2149445659.jpg");
+  background-image: url("istockphoto-1421571763-612x612.jpg");
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: contain;
   background-attachment: fixed;
   background-position: center;
   height: 550px;
   width: 100%;
+  background-color: #0093af;
 }
 body main #why-use-us {
   text-align: center;
@@ -273,6 +277,20 @@ body main #contact form button {
   border: 0;
   color: white;
   background-color: #0093af;
+}
+body footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+  width: 375px;
+  background-color: black;
+  color: white;
+}
+body footer img {
+  width: 220px;
+  height: 220px;
 }
 @media screen and (min-width: 1440px) {
   body header {
