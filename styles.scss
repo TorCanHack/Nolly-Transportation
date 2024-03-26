@@ -451,7 +451,6 @@ body {
                 background-size: cover;
 
                 svg {
-                    position: relative;
                     bottom: 50.5rem;
                     left: 6rem;
                 }
@@ -554,11 +553,6 @@ body {
             #faq {
                 
 
-                img {
-                    height: 300px;
-                    width: 100%;
-                }
-
                 details {
                     border: 1px solid;
                     width: 800px;
@@ -592,7 +586,7 @@ body {
     @media screen and (min-width: 1440px) {
 
         header {
-            width: 1400px;
+            width: 1440px;
             height: 150px;
 
            .logo {
@@ -621,7 +615,7 @@ body {
                 background-size: cover;
 
                 svg {
-                    position: relative;
+                    
                     bottom: 59rem;
                     left: 6rem;
                 }

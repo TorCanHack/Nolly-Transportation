@@ -325,7 +325,6 @@ body footer a:visited {
     background-size: cover;
   }
   body main #home svg {
-    position: relative;
     bottom: 50.5rem;
     left: 6rem;
   }
@@ -387,10 +386,6 @@ body footer a:visited {
   body main #why-use-us2 article {
     font-size: 1.3rem;
   }
-  body main #faq img {
-    height: 300px;
-    width: 100%;
-  }
   body main #faq details {
     border: 1px solid;
     width: 800px;
@@ -408,7 +403,7 @@ body footer a:visited {
 }
 @media screen and (min-width: 1440px) {
   body header {
-    width: 1400px;
+    width: 1440px;
     height: 150px;
   }
   body header .logo {
@@ -430,7 +425,6 @@ body footer a:visited {
     background-size: cover;
   }
   body main #home svg {
-    position: relative;
     bottom: 59rem;
     left: 6rem;
   }
