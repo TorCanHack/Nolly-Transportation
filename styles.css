@@ -60,7 +60,7 @@ body main #home h1 {
   top: 6rem;
   color: #EEEFF4;
   padding: 0 1rem;
-  font-size: 3rem;
+  font-size: 2.9rem;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
 body main #home h2 {
@@ -124,6 +124,7 @@ body main #what-we-do h3 {
 body main #what-we-do p {
   font-size: 1rem;
   padding: 0 30px;
+  margin-bottom: 2rem;
 }
 body main #what-we-do .infographics {
   display: grid;
