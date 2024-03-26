@@ -50,7 +50,6 @@ body main #home {
   height: 550px;
   width: 100%;
   background-color: #0093af;
-  transform: translate3d(0, 0, 0);
 }
 body main #home svg {
   position: relative;
@@ -112,7 +111,6 @@ body main .parallax {
   height: 550px;
   width: 100%;
   background-color: #0093af;
-  transform: translate3d(0, 0, 0);
 }
 body main #what-we-do {
   text-align: center;
@@ -168,7 +166,6 @@ body main .parallax1 {
   height: 550px;
   width: 100%;
   background-color: #0093af;
-  transform: translate3d(0, 0, 0);
 }
 body main #why-use-us {
   text-align: center;
@@ -194,7 +191,6 @@ body main .parallax2 {
   background-position: center;
   height: 550px;
   width: 100%;
-  transform: translate3d(0, 0, 0);
 }
 body main #why-use-us2 {
   display: grid;
@@ -219,7 +215,6 @@ body main .parallax3 {
   background-position: center;
   height: 550px;
   width: 100%;
-  transform: translate3d(0, 0, 0);
 }
 body main #faq {
   text-align: left;
@@ -244,7 +239,6 @@ body main .parallax4 {
   background-position: center;
   height: 550px;
   width: 100%;
-  transform: translate3d(0, 0, 0);
 }
 body main #contact {
   text-align: center;
@@ -286,7 +280,6 @@ body main .parallax5 {
   background-position: center;
   height: 550px;
   width: 100%;
-  transform: translate3d(0, 0, 0);
 }
 body footer {
   display: flex;
