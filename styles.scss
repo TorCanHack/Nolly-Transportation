@@ -283,26 +283,25 @@ body {
         }
 
         #why-use-us2{
-            ul {
 
-                
-                list-style-type: none;
-                padding: 2rem 0rem;
-                font-size: 1rem;
-                
-                
-               
+            display: grid;
+            grid-template-columns: 1fr;
+            justify-items: center;
+            gap: 2rem;
 
-                li {
-                    padding: 1rem 0;
-                    border-radius: 4rem;
-                    color: #0093af;
+            text-align: center;
 
-                    span {
-                        font-weight: 200;
-                    }
+            article {
+                width: 300px;
+                color: #0093af;
+                
+                
+                svg {
+                    width: 20px;
+                    height: 20px;
                 }
             }
+
         }
         .parallax3 {
             background-image: url("AdobeStock_603239336.jpeg");
@@ -358,6 +357,7 @@ body {
 
             P {
                 font-size: 1rem;
+                display: block;
             }
 
             form {
@@ -389,6 +389,16 @@ body {
 
         }
 
+        .parallax5 {
+            background-image: url("AdobeStock_673767848.jpeg");
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-attachment: fixed;
+            background-position: center;
+            height: 550px;
+            width: 100%;
+        }
+
     }
 
     footer {
@@ -405,6 +415,14 @@ body {
         img {
             width: 220px;
             height: 220px;
+        }
+
+        a {
+            text-decoration: none;
+        }
+
+        a:visited {
+            color: #0093af;
         }
     }
 
@@ -559,25 +577,11 @@ body {
             }
 
             #why-use-us2{
-                ul {
-
-                    padding: 2rem 0rem;
-                    font-size: 1.5rem;
-                    
-                    
-                   
-    
-                    li {
-                        padding: 1rem 16rem;
-                        border-radius: 4rem;
-                        color: #0093af;
-    
-                        span {
-                            font-weight: 200;
-                        }
-                    }
+                grid-template-columns: 1fr 1fr 1fr;
+                
+                article {
+                    font-size: 1.2rem;
                 }
-
             }
 
             #faq {
@@ -602,14 +606,19 @@ body {
 
             #contact {
 
-                height: 1000px;
-                margin-top: 10rem;
-
+                height: 500px;
+                
                 P {
                     font-size: 1.5rem;
                 }
 
             }
+
+
+        }
+
+        footer {
+            width: 1440px;
 
 
         }

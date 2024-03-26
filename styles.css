@@ -201,18 +201,20 @@ body main .parallax2 {
   height: 550px;
   width: 100%;
 }
-body main #why-use-us2 ul {
-  list-style-type: none;
-  padding: 2rem 0rem;
-  font-size: 1rem;
+body main #why-use-us2 {
+  display: grid;
+  grid-template-columns: 1fr;
+  justify-items: center;
+  gap: 2rem;
+  text-align: center;
 }
-body main #why-use-us2 ul li {
-  padding: 1rem 0;
-  border-radius: 4rem;
+body main #why-use-us2 article {
+  width: 300px;
   color: #0093af;
 }
-body main #why-use-us2 ul li span {
-  font-weight: 200;
+body main #why-use-us2 article svg {
+  width: 20px;
+  height: 20px;
 }
 body main .parallax3 {
   background-image: url("AdobeStock_603239336.jpeg");
@@ -255,6 +257,7 @@ body main #contact {
 }
 body main #contact P {
   font-size: 1rem;
+  display: block;
 }
 body main #contact form {
   display: flex;
@@ -278,6 +281,15 @@ body main #contact form button {
   color: white;
   background-color: #0093af;
 }
+body main .parallax5 {
+  background-image: url("AdobeStock_673767848.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  height: 550px;
+  width: 100%;
+}
 body footer {
   display: flex;
   flex-direction: column;
@@ -291,6 +303,12 @@ body footer {
 body footer img {
   width: 220px;
   height: 220px;
+}
+body footer a {
+  text-decoration: none;
+}
+body footer a:visited {
+  color: #0093af;
 }
 @media screen and (min-width: 1440px) {
   body header {
@@ -386,17 +404,11 @@ body footer img {
   body main #why-use-us ul li span {
     font-weight: 200;
   }
-  body main #why-use-us2 ul {
-    padding: 2rem 0rem;
-    font-size: 1.5rem;
+  body main #why-use-us2 {
+    grid-template-columns: 1fr 1fr 1fr;
   }
-  body main #why-use-us2 ul li {
-    padding: 1rem 16rem;
-    border-radius: 4rem;
-    color: #0093af;
-  }
-  body main #why-use-us2 ul li span {
-    font-weight: 200;
+  body main #why-use-us2 article {
+    font-size: 1.2rem;
   }
   body main #faq img {
     height: 300px;
@@ -410,10 +422,12 @@ body footer img {
     left: 25rem;
   }
   body main #contact {
-    height: 1000px;
-    margin-top: 10rem;
+    height: 500px;
   }
   body main #contact P {
     font-size: 1.5rem;
+  }
+  body footer {
+    width: 1440px;
   }
 }/*# sourceMappingURL=styles.css.map */
