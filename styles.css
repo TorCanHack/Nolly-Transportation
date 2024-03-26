@@ -42,7 +42,7 @@ body main p {
   font-weight: 200;
 }
 body main #home {
-  background-image: url("1AdobeStock_386173843.png");
+  background-image: url("1AdobeStock_386173843-min.png");
   background-repeat: no-repeat;
   background-size: contain;
   background-attachment: fixed;
@@ -103,7 +103,7 @@ body main #who-we-are p {
   font-size: 1.125rem;
 }
 body main .parallax {
-  background-image: url("1AdobeStock_386173843.png");
+  background-image: url("1AdobeStock_386173843-min.png");
   background-repeat: no-repeat;
   background-size: contain;
   background-attachment: fixed;
@@ -197,7 +197,7 @@ body main #why-use-us ul li span {
   font-weight: 200;
 }
 body main .parallax2 {
-  background-image: url("AdobeStock_603239336.jpeg");
+  background-image: url("AdobeStock_603239336-min.jpeg");
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
@@ -221,7 +221,7 @@ body main #why-use-us2 article svg {
   height: 20px;
 }
 body main .parallax3 {
-  background-image: url("AdobeStock_603239336.jpeg");
+  background-image: url("AdobeStock_603239336-min.jpeg");
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
@@ -245,7 +245,7 @@ body main #faq details {
   margin: 2rem 0;
 }
 body main .parallax4 {
-  background-image: url("AdobeStock_673767848.jpeg");
+  background-image: url("AdobeStock_673767848-min.jpeg");
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
@@ -286,7 +286,7 @@ body main #contact form button {
   background-color: #0093af;
 }
 body main .parallax5 {
-  background-image: url("AdobeStock_673767848.jpeg");
+  background-image: url("AdobeStock_673767848-min.jpeg");
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
